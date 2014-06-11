@@ -21,6 +21,7 @@
 		9B092CF81947E609007DF394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B092CDA1947E609007DF394 /* UIKit.framework */; };
 		9B092D001947E609007DF394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B092CFE1947E609007DF394 /* InfoPlist.strings */; };
 		9B092D021947E609007DF394 /* SocialSharingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B092D011947E609007DF394 /* SocialSharingAppTests.m */; };
+		9B092D0C1947E635007DF394 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B092D0B1947E635007DF394 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9B092CFD1947E609007DF394 /* SocialSharingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialSharingAppTests-Info.plist"; sourceTree = "<group>"; };
 		9B092CFF1947E609007DF394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B092D011947E609007DF394 /* SocialSharingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialSharingAppTests.m; sourceTree = "<group>"; };
+		9B092D0B1947E635007DF394 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B092D0C1947E635007DF394 /* Social.framework in Frameworks */,
 				9B092CD91947E609007DF394 /* CoreGraphics.framework in Frameworks */,
 				9B092CDB1947E609007DF394 /* UIKit.framework in Frameworks */,
 				9B092CD71947E609007DF394 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		9B092CD51947E609007DF394 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B092D0B1947E635007DF394 /* Social.framework */,
 				9B092CD61947E609007DF394 /* Foundation.framework */,
 				9B092CD81947E609007DF394 /* CoreGraphics.framework */,
 				9B092CDA1947E609007DF394 /* UIKit.framework */,
